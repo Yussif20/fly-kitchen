@@ -7,7 +7,7 @@ import Navigation from "./Navigation";
 
 import MobileNavigation from "./MobileNavigation";
 import { useState, useRef, useEffect } from "react";
-import { Settings, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Settings } from "lucide-react";
 import LanguageSelector from "./LanguageSelector";
 import ThemeSwitcher from "./ThemeSwitcher";
 

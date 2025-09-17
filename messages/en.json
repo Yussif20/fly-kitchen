@@ -1,4 +1,16 @@
 {
+  "Features": {
+    "sectionTitle1": "How does Cloud Shelf increase your",
+    "sectionTitle2": "sales?",
+    "fastDeliveryTitle": "Super Fast Delivery",
+    "fastDeliveryDesc": "Instant delivery for your website orders, max 180 minutes!",
+    "storageTitle": "Storage Methods",
+    "storageDesc": "We store your products, whether dry, chilled, or even frozen.",
+    "coverageTitle": "Wide Geographic Coverage",
+    "coverageDesc": "Branches across the Kingdom bring you closer to your customers.",
+    "channelsTitle": "Sales Channels",
+    "channelsDesc": "Appear in delivery apps as the nearest store to customers."
+  },
   "Hero": {
     "title": "A branch for you everywhere!",
     "subtitle": "We make it easy for you to sell and deliver your products",
