@@ -14,6 +14,15 @@ a {
   height: 8px;
 }
 
+/* Feature Icons: default and dark mode color (utility alternative) */
+.feature-icon {
+  color: #202332;
+  transition: color 0.3s ease;
+}
+.dark .feature-icon {
+  color: #ffffff;
+}
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
