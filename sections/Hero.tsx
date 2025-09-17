@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
 import TextAnimation from "@/components/TextAnimation";
 
 export default function Hero() {
-  const locale = useLocale();
   const t = useTranslations("Footer");
   const tHero = useTranslations("Hero");
   return (
@@ -17,7 +15,7 @@ export default function Hero() {
           href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#f2c928]/10 transition-colors"
+          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#22c55e]/10 transition-colors"
           aria-label="Twitter"
         >
           <Twitter color="#1DA1F2" size={18} />
@@ -26,7 +24,7 @@ export default function Hero() {
           href="https://linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#f2c928]/10 transition-colors"
+          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#22c55e]/10 transition-colors"
           aria-label="LinkedIn"
         >
           <Linkedin color="#0077B5" size={18} />
@@ -35,14 +33,14 @@ export default function Hero() {
           href="https://instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#f2c928]/10 transition-colors"
+          className="p-2 rounded-full hover:bg-[#202332]/10 dark:hover:bg-[#22c55e]/10 transition-colors"
           aria-label="Instagram"
         >
           <Instagram color="#C13584" size={18} />
         </a>
         <Link
           href="/contact"
-          className="ml-2 bg-[#202332] text-white dark:bg-[#f2c928] dark:text-[#202332] font-bold px-4 py-2 rounded-lg text-sm shadow hover:bg-[#11131a] dark:hover:bg-[#ffe082] transition-colors duration-200"
+          className="ml-2 bg-[#202332] text-white dark:bg-[#22c55e] dark:text-[#202332] font-bold px-4 py-2 rounded-lg text-sm shadow hover:bg-[#11131a] dark:hover:bg-[#16a34a] transition-colors duration-200"
           style={{ whiteSpace: "nowrap" }}
         >
           {t("contact")}
@@ -69,8 +67,8 @@ export default function Hero() {
           {tHero("subtitle")}
         </p>
         <button
-          className="bg-[#f2c928] text-[#202332] font-bold px-8 py-3 rounded-full text-lg shadow-lg transition-colors duration-200
-            hover:bg-[#ddb300] hover:ring-2 hover:ring-[#f2c928] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#f2c928]"
+          className="bg-[#22c55e] text-white font-bold px-8 py-3 rounded-full text-lg shadow-lg transition-colors duration-200
+            hover:bg-[#16a34a] hover:ring-2 hover:ring-[#22c55e] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#22c55e]"
         >
           {tHero("cta")}
         </button>

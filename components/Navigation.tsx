@@ -28,7 +28,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="hidden md:flex items-center gap-0 relative bg-[#f2c928] text-[#202332] dark:bg-[#212529] dark:text-[#f2c928] h-20">
+    <nav className="hidden md:flex items-center gap-0 relative bg-[#22c55e] text-[#202332] dark:bg-[#212529] dark:text-[#22c55e] h-20">
       {navigation.map((item) => (
         <div key={item.href} className="flex h-full">
           <Link
@@ -36,10 +36,10 @@ export default function Navigation() {
             className={`flex items-center h-full text-sm font-medium transition-colors duration-200 px-5 rounded-none
               ${
                 isActive(item.href)
-                  ? "bg-[#202332] text-[#f2c928] dark:bg-[#f2c928] dark:text-[#202332]"
+                  ? "bg-[#202332] text-[#22c55e] dark:bg-[#22c55e] dark:text-[#202332]"
                   : ""
               }
-              hover:bg-[#202332] hover:text-[#f2c928] dark:hover:bg-[#f2c928] dark:hover:text-[#202332]`}
+              hover:bg-[#202332] hover:text-[#22c55e] dark:hover:bg-[#22c55e] dark:hover:text-[#202332]`}
           >
             {item.name}
           </Link>

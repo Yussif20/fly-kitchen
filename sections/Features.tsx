@@ -32,10 +32,10 @@ export default function Features() {
   return (
     <section className="w-full max-w-7xl mx-auto mt-8 px-4 py-12">
       <div className="mb-10 text-center">
-        <h2 className="text-2xl sm:text-5xl font-bold text-[#202332] dark:text-[#f2c928] leading-tight">
+        <h2 className="text-2xl sm:text-5xl font-bold text-[#202332] dark:text-[#22c55e] leading-tight">
           {t("sectionTitle1")}
           <br />
-          <span className="block text-4xl sm:text-5xl text-[#f2c928] dark:text-[#f2c928] mt-6">
+          <span className="block text-4xl sm:text-5xl text-[#22c55e] dark:text-[#22c55e] mt-6">
             {(() => {
               const s = t("sectionTitle2");
               // For Arabic: highlight last 4 chars (عاتك؟)
@@ -43,7 +43,7 @@ export default function Features() {
                 return (
                   <>
                     {s.slice(0, s.length - 4)}
-                    <span className="bg-[#f2c928] text-white rounded px-2">
+                    <span className="bg-[#22c55e] text-white rounded px-2">
                       {s.slice(-4)}
                     </span>
                   </>
@@ -55,7 +55,7 @@ export default function Features() {
                 return (
                   <>
                     {s.slice(0, idx + 2)}
-                    <span className="bg-[#f2c928] text-white rounded px-2">
+                    <span className="bg-[#22c55e] text-white rounded px-2">
                       {s.slice(idx + 2)}
                     </span>
                   </>
