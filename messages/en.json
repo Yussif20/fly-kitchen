@@ -1,0 +1,41 @@
+{
+  "Hero": {
+    "title": "A branch for you everywhere!",
+    "subtitle": "We make it easy for you to sell and deliver your products",
+    "cta": "Open your cloud branches now"
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "branches": "Branches",
+    "clients": "Our Clients",
+    "faq": "FAQ",
+    "trackOrder": "Track Order",
+    "login": "Login",
+    "joinNow": "Join Now"
+  },
+  "Footer": {
+    "companyDescription": "Fly Kitchen - Innovative cloud kitchen solutions in Saudi Arabia.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "services": "Services",
+    "branches": "Branches",
+    "clients": "Our Clients",
+    "faq": "FAQ",
+    "trackOrder": "Track Order",
+    "login": "Login",
+    "contact": "Contact Us",
+    "address": "Riyadh, Saudi Arabia",
+    "phone": "+966123456789",
+    "email": "info@flykitchen.sa",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  },
+  "Switch": {
+    "label": "Language",
+    "toArabic": "Arabic",
+    "toEnglish": "English"
+  }
+}

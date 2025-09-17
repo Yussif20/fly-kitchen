@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+button,
+a {
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f2c928;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e6b800;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #212529;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #11131a;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f2c928 transparent;
+}
+
+.dark * {
+  scrollbar-color: #212529 transparent;
+}

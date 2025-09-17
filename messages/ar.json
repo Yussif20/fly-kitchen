@@ -1,0 +1,41 @@
+{
+  "Hero": {
+    "title": "بكل مكان لك فرع!",
+    "subtitle": "نسهل عليك كل عمليات بيع و توصيل منتجاتك",
+    "cta": "افتح فروعك السحابية الحين"
+  },
+  "Header": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "branches": "فروعنا",
+    "clients": "عملاؤنا",
+    "faq": "أسئلة شائعة",
+    "trackOrder": "تتبع طلبك",
+    "login": "تسجيل دخول",
+    "joinNow": "انضم الحين"
+  },
+  "Footer": {
+    "companyDescription": "شركة فلاي كيتشن - حلول المطابخ السحابية المبتكرة في السعودية.",
+    "quickLinks": "روابط سريعة",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "branches": "فروعنا",
+    "clients": "عملاؤنا",
+    "faq": "أسئلة شائعة",
+    "trackOrder": "تتبع طلبك",
+    "login": "تسجيل دخول",
+    "contact": "تواصل معنا",
+    "address": "الرياض، المملكة العربية السعودية",
+    "phone": "+966123456789",
+    "email": "info@flykitchen.sa",
+    "rights": "جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsConditions": "الشروط والأحكام"
+  },
+  "Switch": {
+    "label": "اللغة",
+    "toArabic": "العربية",
+    "toEnglish": "English"
+  }
+}
