@@ -80,13 +80,13 @@ export default function MobileNavigation() {
           isOpen ? "block" : "hidden"
         } fixed top-20 left-0 right-0 w-screen bg-[#f2c928] text-[#202332] dark:bg-[#212529] dark:text-[#f2c928] shadow-lg z-[100]`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="px-2 pt-2 pb-3 space-y-1 flex flex-col items-center">
           {navigation.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 hover:text-[#202332] dark:hover:text-[#f2c928] ${
+              className={`block px-3 py-2 rounded-md text-base font-medium text-center transition-colors duration-200 hover:text-[#202332] dark:hover:text-[#f2c928] ${
                 isActive(item.href)
                   ? "border-b-2 border-[#202332] dark:border-[#f2c928] pb-1"
                   : ""
@@ -95,6 +95,14 @@ export default function MobileNavigation() {
               {item.name}
             </Link>
           ))}
+          <Link
+            href={`/${locale}/join`}
+            onClick={() => setIsOpen(false)}
+            className="mt-4 w-full max-w-xs mx-auto block text-center bg-[#202332] text-white dark:bg-[#f2c928] dark:text-[#202332] font-bold px-6 py-2 rounded-lg text-base shadow hover:bg-[#11131a] dark:hover:bg-[#ffe082] transition-colors duration-200"
+            style={{ whiteSpace: "nowrap" }}
+          >
+            {t("joinNow")}
+          </Link>
         </div>
       </div>
     </div>

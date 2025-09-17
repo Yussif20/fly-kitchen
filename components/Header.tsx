@@ -78,7 +78,7 @@ export default function Header() {
               <Navigation />
               <Link
                 href="/join"
-                className="hidden lg:inline-block bg-[#202332] text-white dark:bg-[#f2c928] dark:text-[#202332] font-bold px-6 py-2 rounded-lg text-base shadow hover:bg-[#11131a] dark:hover:bg-[#ffe082] transition-colors duration-200"
+                className="hidden lg:inline-block bg-[#202332] text-white dark:bg-[#f2c928] dark:text-[#202332] font-bold px-6 py-2 rounded-full text-base shadow hover:bg-[#11131a] dark:hover:bg-[#ffe082] transition-colors duration-200"
                 style={{ whiteSpace: "nowrap" }}
               >
                 {t("joinNow")}

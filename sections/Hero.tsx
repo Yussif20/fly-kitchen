@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
+import TextAnimation from "@/components/TextAnimation";
 
 export default function Hero() {
   const locale = useLocale();
@@ -60,14 +61,15 @@ export default function Hero() {
       <div className="absolute inset-0 z-10 bg-[rgba(60,50,10,0.85)] mix-blend-multiply" />
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center text-center px-4 py-16">
-        <h1 className="text-3xl sm:text-5xl font-extrabold text-[#f2c928] mb-4 drop-shadow-lg">
+        <TextAnimation />
+        <h1 className="text-3xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
           {tHero("title")}
         </h1>
         <p className="text-lg sm:text-2xl text-white mb-8 max-w-2xl drop-shadow">
           {tHero("subtitle")}
         </p>
         <button
-          className="bg-[#f2c928] text-[#202332] font-bold px-8 py-3 rounded-lg text-lg shadow-lg transition-colors duration-200
+          className="bg-[#f2c928] text-[#202332] font-bold px-8 py-3 rounded-full text-lg shadow-lg transition-colors duration-200
             hover:bg-[#ddb300] hover:ring-2 hover:ring-[#f2c928] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#f2c928]"
         >
           {tHero("cta")}
