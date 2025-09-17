@@ -76,9 +76,9 @@ export default function MobileNavigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`$
-          {isOpen ? "block" : "hidden"}
-        absolute top-full left-0 right-0 bg-[#f2c928] text-[#202332] dark:bg-[#212529] dark:text-[#f2c928] border-t border-[#f2c928] dark:border-[#212529] shadow-lg z-50`}
+        className={`${
+          isOpen ? "block" : "hidden"
+        } fixed top-20 left-0 right-0 w-screen bg-[#f2c928] text-[#202332] dark:bg-[#212529] dark:text-[#f2c928] shadow-lg z-[100]`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1">
           {navigation.map((item) => (
