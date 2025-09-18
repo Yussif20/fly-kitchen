@@ -18,7 +18,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#212529] text-[#22c55e]">
+    <footer className="bg-dark-green text-primary-green">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center md:text-start">
           {/* Company Info */}
@@ -33,7 +33,7 @@ export default function Footer() {
               suppressHydrationWarning
               draggable={false}
             />
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-white text-sm leading-relaxed">
               {footer("companyDescription")}
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
@@ -42,7 +42,7 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-400 transition-colors duration-200 pt-4"
+                className="text-white hover:text-primary-green-hover transition-colors duration-200 pt-4"
                 aria-label="LinkedIn"
               >
                 <svg
@@ -58,7 +58,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">
+            <h3 className="text-lg font-semibold mb-4 text-primary-green">
               {footer("quickLinks")}
             </h3>
             <ul className="space-y-2">
@@ -66,7 +66,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                    className="text-white hover:text-primary-green-hover transition-colors duration-200 text-sm"
                   >
                     {link.name}
                   </Link>
@@ -77,7 +77,9 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">{footer("contact")}</h3>
+            <h3 className="text-lg font-semibold mb-4 text-primary-green">
+              {footer("contact")}
+            </h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3 justify-center md:justify-start">
                 <svg
@@ -99,7 +101,7 @@ export default function Footer() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <p className="text-gray-300 text-sm">{footer("address")}</p>
+                <p className="text-white text-sm">{footer("address")}</p>
               </div>
               <div className="flex items-start gap-3 justify-center md:justify-start">
                 <svg
@@ -117,7 +119,7 @@ export default function Footer() {
                 </svg>
                 <a
                   href={`tel:${footer("phone")}`}
-                  className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
+                  className="text-white text-sm hover:text-primary-green-hover transition-colors duration-200"
                 >
                   {footer("phone")}
                 </a>
@@ -138,7 +140,7 @@ export default function Footer() {
                 </svg>
                 <a
                   href={`mailto:${footer("email")}`}
-                  className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
+                  className="text-white text-sm hover:text-primary-green-hover transition-colors duration-200"
                 >
                   {footer("email")}
                 </a>
@@ -150,20 +152,20 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
+            <p className="text-white text-sm">
               © 2025 {footer("companyDescription").split(" - ")[0]}.{" "}
               {footer("rights")}
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link
                 href={`/${locale}/governance`}
-                className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
+                className="text-white hover:text-primary-green-hover text-sm transition-colors duration-200"
               >
                 {footer("privacyPolicy")}
               </Link>
               <Link
                 href={`/${locale}/governance`}
-                className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
+                className="text-white hover:text-primary-green-hover text-sm transition-colors duration-200"
               >
                 {footer("termsConditions")}
               </Link>

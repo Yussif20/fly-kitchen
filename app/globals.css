@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --color-primary-green: #22c55e;
+  --color-primary-green-hover: #16a34a;
+  --color-dark-green: #1a2e22;
+  --color-dark-green-hover: #22402e;
+}
 button,
 a {
   cursor: pointer;
