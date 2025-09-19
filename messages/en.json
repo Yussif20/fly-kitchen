@@ -87,5 +87,27 @@
     "required": "This field is required",
     "invalidEmail": "Enter a valid email",
     "success": "Logged in successfully (demo)."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "intro": "Find quick answers to common questions.",
+    "q1": "Which platforms do you integrate me with?",
+    "a1": "We integrate with leading e-commerce, POS, and delivery marketplaces. Full list coming soon.",
+    "q2": "Which delivery apps can I operate with you?",
+    "a2": "Major delivery apps in the Kingdom; we handle onboarding and menu sync.",
+    "q3": "How are products packaged?",
+    "a3": "We follow standardized, food-safe packaging procedures that preserve freshness and presentation.",
+    "q4": "How long does order preparation take?",
+    "a4": "Average prep time depends on complexity, typically between 10–25 minutes before handoff.",
+    "q5": "How long is intra-city delivery time?",
+    "a5": "Delivery time varies by area and traffic, generally 25–55 minutes after preparation.",
+    "q6": "Are there extra fees for Cash on Delivery?",
+    "a6": "A small handling fee may apply depending on the courier partner; we'll disclose it clearly.",
+    "q7": "Do I need a physical branch for delivery apps?",
+    "a7": "No physical branch is required; our cloud infrastructure represents you across channels.",
+    "q8": "If a customer doesn't receive a COD order, how is it handled?",
+    "a8": "We investigate, coordinate with the courier, and follow dispute protocols to minimize your loss.",
+    "q9": "How do I track my customers' orders?",
+    "a9": "You get a real-time dashboard with order statuses, timestamps, and performance metrics."
   }
 }
