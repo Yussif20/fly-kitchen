@@ -77,7 +77,7 @@ export default function Header() {
             <div className="order-3 flex-1 flex justify-center items-center gap-4">
               <Navigation />
               <Link
-                href="/join"
+                href={`/${locale}/join`}
                 className="hidden lg:inline-block bg-dark-bg text-white dark:bg-primary-yellow dark:text-dark-bg font-bold px-6 py-2 rounded-full text-base shadow hover:bg-dark-bg/80 dark:hover:bg-primary-yellow-hover transition-colors duration-200"
                 style={{ whiteSpace: "nowrap" }}
               >

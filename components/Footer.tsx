@@ -1,3 +1,4 @@
+"use client";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";

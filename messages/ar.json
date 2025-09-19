@@ -12,8 +12,8 @@
     "channelsDesc": "الظهور في تطبيقات التوصيل كالمحل الأقرب للعملاء."
   },
   "Hero": {
-    "title": "بكل مكان لك فرع!",
-    "subtitle": "نسهل عليك كل عمليات بيع و توصيل منتجاتك",
+    "title": "",
+    "subtitle": "",
     "cta": "افتح فروعك السحابية الحين"
   },
   "Header": {
@@ -49,5 +49,43 @@
     "label": "اللغة",
     "toArabic": "العربية",
     "toEnglish": "English"
+  },
+  "Slogans": {
+    "branchesCloser": "فروعك اقرب لعملائك",
+    "salesEverywhere": "مبيعاتك بكل مكان"
+  },
+  "Join": {
+    "title": "انضم الحين",
+    "subtitle": "مبيعاتك بكل مكان",
+    "name": "الاسم",
+    "phone": "رقم الجوال",
+    "storeName": "اسم المتجر",
+    "ordersMonthly": "عدد الطلبات (شهرياً)",
+    "ordersOptionLt100": "أقل من 100",
+    "ordersOption100_300": "100 - 300",
+    "ordersOption300_500": "300 - 500",
+    "ordersOptionGt500": "أكثر من 500",
+    "isSaudiBrand": "ماركة سعودية",
+    "uploadReport": "ارفع تقرير لعدد طلباتك",
+    "discountCode": "كود الخصم",
+    "additionalInfo": "معلومات إضافية",
+    "placeholderAdditionalInfo": "اكتب أي تفاصيل تود إضافتها...",
+    "placeholderDiscount": "إن وُجد",
+    "submit": "انضم الآن",
+    "required": "هذا الحقل مطلوب",
+    "success": "تم استلام طلب الانضمام بنجاح وسنتواصل معك قريباً.",
+    "captcha": "لطفاً أكّد أنك لست روبوت"
+  },
+  "Login": {
+    "title": "مرحباً بعودتك",
+    "subtitle": "ادخل إلى لوحتك",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "submit": "تسجيل دخول",
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "الرجاء إدخال بريد صالح",
+    "success": "تم تسجيل الدخول (تجريبي)."
   }
 }

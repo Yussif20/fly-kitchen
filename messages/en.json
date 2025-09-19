@@ -12,8 +12,8 @@
     "channelsDesc": "Appear in delivery apps as the nearest store to customers."
   },
   "Hero": {
-    "title": "A branch for you everywhere!",
-    "subtitle": "We make it easy for you to sell and deliver your products",
+    "title": "",
+    "subtitle": "",
     "cta": "Open your cloud branches now"
   },
   "Header": {
@@ -49,5 +49,43 @@
     "label": "Language",
     "toArabic": "Arabic",
     "toEnglish": "English"
+  },
+  "Slogans": {
+    "branchesCloser": "Your branches closer to your customers",
+    "salesEverywhere": "Your sales everywhere"
+  },
+  "Join": {
+    "title": "Join Now",
+    "subtitle": "Your sales everywhere",
+    "name": "Name",
+    "phone": "Phone Number",
+    "storeName": "Store Name",
+    "ordersMonthly": "Monthly Orders",
+    "ordersOptionLt100": "Less than 100",
+    "ordersOption100_300": "100 - 300",
+    "ordersOption300_500": "300 - 500",
+    "ordersOptionGt500": "More than 500",
+    "isSaudiBrand": "Saudi Brand",
+    "uploadReport": "Upload Orders Report",
+    "discountCode": "Discount Code",
+    "additionalInfo": "Additional Information",
+    "placeholderAdditionalInfo": "Add any notes or details...",
+    "placeholderDiscount": "If any",
+    "submit": "Join Now",
+    "required": "This field is required",
+    "success": "Your join request has been received. We'll contact you soon.",
+    "captcha": "Please confirm you are not a robot"
+  },
+  "Login": {
+    "title": "Welcome Back",
+    "subtitle": "Access your dashboard",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "submit": "Login",
+    "required": "This field is required",
+    "invalidEmail": "Enter a valid email",
+    "success": "Logged in successfully (demo)."
   }
 }

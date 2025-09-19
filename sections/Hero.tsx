@@ -4,9 +4,12 @@ import { useTranslations } from "next-intl";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
 import TextAnimation from "@/components/TextAnimation";
 
+// (No state needed)
+
 export default function Hero() {
   const t = useTranslations("Footer");
-  const tHero = useTranslations("Hero");
+  const tHero = useTranslations("Hero"); // only keeping for CTA text
+  const tSlogans = useTranslations("Slogans");
   return (
     <section className="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Social icons and contact button overlay */}
@@ -60,11 +63,11 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center text-center px-4 py-16">
         <TextAnimation />
-        <h1 className="text-3xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
-          {tHero("title")}
+        <h1 className="text-3xl sm:text-6xl font-extrabold text-white mb-3 drop-shadow-lg">
+          {tSlogans("branchesCloser")}
         </h1>
-        <p className="text-lg sm:text-2xl text-white mb-8 max-w-2xl drop-shadow">
-          {tHero("subtitle")}
+        <p className="text-lg sm:text-2xl text-white mb-6 max-w-2xl drop-shadow">
+          {tSlogans("salesEverywhere")}
         </p>
         <button
           className="bg-primary-yellow text-white dark:bg-dark-bg dark:text-primary-yellow font-bold px-8 py-3 rounded-full text-lg shadow-lg transition-colors duration-200
