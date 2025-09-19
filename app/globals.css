@@ -2,10 +2,16 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary-green: #22c55e;
-  --color-primary-green-hover: #16a34a;
-  --color-dark-green: #1a2e22;
-  --color-dark-green-hover: #22402e;
+  --color-primary-yellow: #f2c928;
+  --color-primary-yellow-hover: #eab308;
+  --color-yellow-gradient: linear-gradient(90deg, #f2c928 0%, #ffe066 100%);
+  --color-yellow-gradient-strong: linear-gradient(
+    90deg,
+    #f2c928 0%,
+    #eab308 100%
+  );
+  --color-dark-bg: #202332;
+  --color-dark-bg-hover: #11131a;
 }
 button,
 a {
@@ -34,13 +40,13 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #22c55e;
+  background-color: var(--color-primary-yellow);
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #16a34a;
+  background-color: var(--color-primary-yellow-hover);
 }
 
 .dark ::-webkit-scrollbar-thumb {
@@ -53,7 +59,7 @@ a {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #22c55e transparent;
+  scrollbar-color: var(--color-primary-yellow) transparent;
 }
 
 .dark * {

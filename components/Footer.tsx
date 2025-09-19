@@ -18,7 +18,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-dark-green text-primary-green">
+    <footer className="bg-dark-bg text-primary-yellow">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center md:text-start">
           {/* Company Info */}
@@ -42,7 +42,7 @@ export default function Footer() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary-green-hover transition-colors duration-200 pt-4"
+                className="text-white hover:text-primary-yellow-hover transition-colors duration-200 pt-4"
                 aria-label="LinkedIn"
               >
                 <svg
@@ -58,7 +58,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-primary-green">
+            <h3 className="text-lg font-semibold mb-4 text-primary-yellow">
               {footer("quickLinks")}
             </h3>
             <ul className="space-y-2">
@@ -66,7 +66,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-white hover:text-primary-green-hover transition-colors duration-200 text-sm"
+                    className="text-white hover:text-primary-yellow-hover transition-colors duration-200 text-sm"
                   >
                     {link.name}
                   </Link>
@@ -77,7 +77,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-primary-green">
+            <h3 className="text-lg font-semibold mb-4 text-primary-yellow">
               {footer("contact")}
             </h3>
             <div className="space-y-3">
@@ -119,7 +119,7 @@ export default function Footer() {
                 </svg>
                 <a
                   href={`tel:${footer("phone")}`}
-                  className="text-white text-sm hover:text-primary-green-hover transition-colors duration-200"
+                  className="text-white text-sm hover:text-primary-yellow-hover transition-colors duration-200"
                 >
                   {footer("phone")}
                 </a>
@@ -140,7 +140,7 @@ export default function Footer() {
                 </svg>
                 <a
                   href={`mailto:${footer("email")}`}
-                  className="text-white text-sm hover:text-primary-green-hover transition-colors duration-200"
+                  className="text-white text-sm hover:text-primary-yellow-hover transition-colors duration-200"
                 >
                   {footer("email")}
                 </a>
@@ -159,13 +159,13 @@ export default function Footer() {
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link
                 href={`/${locale}/governance`}
-                className="text-white hover:text-primary-green-hover text-sm transition-colors duration-200"
+                className="text-white hover:text-primary-yellow-hover text-sm transition-colors duration-200"
               >
                 {footer("privacyPolicy")}
               </Link>
               <Link
                 href={`/${locale}/governance`}
-                className="text-white hover:text-primary-green-hover text-sm transition-colors duration-200"
+                className="text-white hover:text-primary-yellow-hover text-sm transition-colors duration-200"
               >
                 {footer("termsConditions")}
               </Link>

@@ -42,11 +42,11 @@ export default function TextAnimation() {
 
   return (
     <div className="flex items-center justify-center text-center text-2xl font-bold mb-2">
-      <span className="text-6xl text-primary-green inline-block ">
+      <span className="text-6xl text-primary-yellow inline-block ">
         {displayed}
         <span className="animate-pulse">|</span>
       </span>
-      <span className="inline-block text-6xl font-semibold py-1 rounded  text-primary-green">
+      <span className="inline-block text-6xl font-semibold py-1 rounded  text-primary-yellow">
         ..
       </span>
     </div>
