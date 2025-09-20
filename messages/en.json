@@ -28,7 +28,7 @@
     "joinNow": "Join Now"
   },
   "Footer": {
-    "companyDescription": "Fly Kitchen - Innovative cloud kitchen solutions in Saudi Arabia.",
+    "companyDescription": "Fly Kitchen - Your branches closer to your customers",
     "quickLinks": "Quick Links",
     "about": "About Us",
     "services": "Services",
@@ -52,7 +52,9 @@
   },
   "Slogans": {
     "branchesCloser": "Your branches closer to your customers",
-    "salesEverywhere": "Your sales everywhere"
+    "branchesCloserDesc": "We help store owners expand their reach through a distributed network of cloud branches across the Kingdom of Saudi Arabia.",
+    "salesEverywhere": "Your sales everywhere",
+    "salesEverywhereDesc": "Through our advanced platform, we ensure your products reach every customer anywhere with high efficiency and speed."
   },
   "Join": {
     "title": "Join Now",
@@ -112,24 +114,24 @@
   },
   "About": {
     "title": "About Fly Kitchen",
-    "subtitle": "Revolutionizing food business in Saudi Arabia",
-    "intro": "We're transforming how food businesses operate through innovative cloud kitchen solutions, making it easier for brands to reach customers everywhere.",
+    "subtitle": "Your branches closer to your customers",
+    "intro": "We help store owners create a distributed network of branches across the Kingdom to reduce delivery distances and increase customer satisfaction.",
     "missionTitle": "Our Mission",
-    "mission": "To empower food businesses with scalable cloud kitchen infrastructure that eliminates geographical barriers and maximizes growth potential.",
+    "mission": "To empower businesses with scalable cloud branch infrastructure that eliminates geographical barriers and maximizes growth potential.",
     "visionTitle": "Our Vision",
-    "vision": "To become the leading cloud kitchen network in the Middle East, enabling every food brand to thrive in the digital economy.",
+    "vision": "To become the leading cloud branch network in the Middle East, enabling every brand to thrive in the digital economy.",
     "valuesTitle": "Our Values",
     "value1Title": "Innovation",
     "value1Desc": "Continuously advancing technology to streamline operations.",
     "value2Title": "Quality",
     "value2Desc": "Maintaining the highest standards in food safety and service.",
     "value3Title": "Partnership",
-    "value3Desc": "Building lasting relationships with our restaurant partners.",
+    "value3Desc": "Building lasting relationships with our store partners.",
     "value4Title": "Growth",
     "value4Desc": "Driving sustainable expansion for all stakeholders.",
     "statsTitle": "Our Impact",
     "stat1Number": "500+",
-    "stat1Label": "Partner Restaurants",
+    "stat1Label": "Partner Stores",
     "stat2Number": "50+",
     "stat2Label": "Cities Covered",
     "stat3Number": "1M+",
@@ -140,11 +142,11 @@
     "teamIntro": "Meet the experts driving our vision forward.",
     "whyChooseTitle": "Why Choose Fly Kitchen?",
     "reason1Title": "Proven Track Record",
-    "reason1Desc": "Successfully launched hundreds of cloud kitchen operations across the Kingdom.",
+    "reason1Desc": "Successfully launched hundreds of cloud branch operations across the Kingdom.",
     "reason2Title": "Technology First",
     "reason2Desc": "Advanced systems for inventory, orders, and analytics built for scale.",
     "reason3Title": "Full Service",
-    "reason3Desc": "From setup to ongoing support, we handle every aspect of your cloud kitchen."
+    "reason3Desc": "From setup to ongoing support, we handle every aspect of your cloud branches."
   },
   "Branches": {
     "title": "Your Cloud Branches",
