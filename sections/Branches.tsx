@@ -227,7 +227,7 @@ export default function Branches() {
               <div className="space-y-8">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-yellow/10 via-transparent to-primary-yellow/10 rounded-2xl blur-xl group-hover:blur-lg transition-all duration-500"></div>
-                  <p className="relative text-base sm:text-lg leading-relaxed text-white/95 bg-gradient-to-br from-white/15 via-white/10 to-white/5 dark:from-dark-bg/40 dark:via-dark-bg/30 dark:to-dark-bg/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 dark:border-primary-yellow/30 shadow-xl">
+                  <div className="relative text-base sm:text-lg leading-relaxed text-white/95 bg-gradient-to-br from-white/15 via-white/10 to-white/5 dark:from-dark-bg/40 dark:via-dark-bg/30 dark:to-dark-bg/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 dark:border-primary-yellow/30 shadow-xl">
                     <span className="relative z-10">{t("description")}</span>
                     {/* Decorative quote marks */}
                     <div
@@ -235,16 +235,16 @@ export default function Branches() {
                         isRTL ? "right-4" : "left-4"
                       }`}
                     >
-                      {isRTL ? "&rdquo;" : "&ldquo;"}
+                      &ldquo;
                     </div>
                     <div
                       className={`absolute bottom-4 text-primary-yellow/30 text-4xl font-serif rotate-180 ${
                         isRTL ? "left-4" : "right-4"
                       }`}
                     >
-                      {isRTL ? "&ldquo;" : "&rdquo;"}
+                      &rdquo;
                     </div>
-                  </p>
+                  </div>
                 </div>
 
                 {/* Enhanced CTA Button */}
