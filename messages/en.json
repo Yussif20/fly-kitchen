@@ -145,5 +145,30 @@
     "reason2Desc": "Advanced systems for inventory, orders, and analytics built for scale.",
     "reason3Title": "Full Service",
     "reason3Desc": "From setup to ongoing support, we handle every aspect of your cloud kitchen."
+  },
+  "Branches": {
+    "title": "Your Cloud Branches",
+    "description": "Extensive geographic coverage for all Fly Kitchen branches across the Kingdom. Having multiple distributed branches provides greater geographic coverage in delivery apps.",
+    "cta": "Open your cloud branches now",
+    "riyadh": "Riyadh",
+    "rawdah": "Rawdah",
+    "suwaidi": "Suwaidi",
+    "qairawan": "Qairawan",
+    "masif": "Masif",
+    "laban": "Laban",
+    "olaya": "Olaya",
+    "narjis": "Narjis",
+    "yarmouk": "Yarmouk",
+    "badeea": "Badeea",
+    "naseem": "Naseem",
+    "aziziyah": "Aziziyah",
+    "kharj": "Kharj",
+    "qassim": "Qassim",
+    "buraidah": "Buraidah",
+    "eastern": "Eastern Province",
+    "dammam": "Dammam",
+    "hofuf": "Hofuf",
+    "western": "Western Province",
+    "jeddah": "Jeddah"
   }
 }
