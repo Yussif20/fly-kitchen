@@ -1,12 +1,12 @@
-import { Features, Hero } from "@/sections";
-import BranchesPage from "./branches/page";
+import { Features, Hero, Branches, Solutions } from "@/sections";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <BranchesPage />
+      <Solutions />
+      <Branches />
     </>
   );
 }

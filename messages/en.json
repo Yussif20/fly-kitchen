@@ -170,5 +170,17 @@
     "hofuf": "Hofuf",
     "western": "Western Province",
     "jeddah": "Jeddah"
+  },
+  "Solutions": {
+    "title": "Problems that Fly Kitchen solves for you",
+    "solution1Title": "Delivery prices vary by distance?",
+    "solution1Subtitle": "We offer fixed prices regardless of how far customers are from your cloud branches!",
+    "solution2Title": "Lost control over order management during ad campaigns?",
+    "solution2Subtitle": "It's hard to focus on developing your online store project, especially if you spend all your time and effort on operations and order management. That's why you can rely on us completely!",
+    "solution3Title": "Cash on delivery payment issues?",
+    "solution3Subtitle": "We guarantee it for you without any additional cost!",
+    "solution4Title": "Differences in storage temperatures?",
+    "solution4Subtitle": "We provide storage at different temperatures, whether frozen, chilled, or at room temperature.",
+    "cta": "Want to know more?"
   }
 }
