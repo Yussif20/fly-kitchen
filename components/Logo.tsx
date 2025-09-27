@@ -22,8 +22,8 @@ export default function Logo({
         src="/logo-light.png"
         alt="Fly Kitchen Logo"
         width={140}
-        height={80}
-        className="block dark:hidden select-none h-20 w-auto"
+        height={140}
+        className="block dark:hidden select-none w-auto"
         priority
         suppressHydrationWarning
         draggable={false}
@@ -33,8 +33,8 @@ export default function Logo({
         src="/logo-dark.png"
         alt="Fly Kitchen Logo"
         width={140}
-        height={80}
-        className="hidden dark:block select-none h-20 w-auto"
+        height={140}
+        className="hidden dark:block select-none w-auto"
         priority
         suppressHydrationWarning
         draggable={false}

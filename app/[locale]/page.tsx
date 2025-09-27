@@ -19,7 +19,7 @@ export default function Home() {
       <Channels />
       <TechFeatures />
       <CustomerJourney />
-      <Brands />
+      {/* <Brands /> */}
     </>
   );
 }
