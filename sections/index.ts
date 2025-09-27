@@ -4,3 +4,4 @@ export { default as Branches } from "./Branches";
 export { default as Solutions } from "./Solutions";
 export { default as Channels } from "./Channels";
 export { default as Brands } from "./Brands";
+export { default as CustomerJourney } from "./CustomerJourney";

@@ -1,4 +1,12 @@
-import { Sales, Hero, Branches, Solutions, Channels, Brands } from "@/sections";
+import {
+  Sales,
+  Hero,
+  Branches,
+  Solutions,
+  Channels,
+  Brands,
+  CustomerJourney,
+} from "@/sections";
 
 export default function Home() {
   return (
@@ -6,9 +14,10 @@ export default function Home() {
       <Hero />
       <Sales />
       <Solutions />
-      <Brands />
       <Branches />
       <Channels />
+      <CustomerJourney />
+      <Brands />
     </>
   );
 }

@@ -74,13 +74,8 @@ export default function Channels() {
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
               }}
-              navigation={{
-                nextEl: ".swiper-button-next-channels",
-                prevEl: ".swiper-button-prev-channels",
-              }}
               pagination={{
                 clickable: true,
-
               }}
               breakpoints={{
                 640: {

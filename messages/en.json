@@ -194,6 +194,34 @@
     "noonFoodTitle": "Noon Food",
     "mrsoolTitle": "Mrsool"
   },
+  "CustomerJourney": {
+    "title": "Customer Journey",
+    "subtitle": "How your customers experience our service",
+    "step1": {
+      "title": "01: Technical Integration",
+      "description": "Done immediately upon signing the contract, giving you direct access to view and fully manage the inventory"
+    },
+    "step2": {
+      "title": "02: Receiving Products",
+      "description": "We receive your products at our nearest branch and then start distributing them to our other branches in the Kingdom"
+    },
+    "step3": {
+      "title": "03: Storing Products",
+      "description": "We store your products in the required way, whether frozen, refrigerated, or at room temperature"
+    },
+    "step4": {
+      "title": "04: Receiving Orders",
+      "description": "We receive your customers' orders in detail directly! Whether from delivery apps or through your website, and prepare it in just two minutes"
+    },
+    "step5": {
+      "title": "05: Delivery",
+      "description": "Our delivery is immediate for your website orders and within a maximum of 180 minutes"
+    },
+    "step6": {
+      "title": "06: Return Cases",
+      "description": "At Cloud Chef, we understand return cases from your customers and we receive, inspect all returned products, and make them available in the system after ensuring their safety"
+    }
+  },
   "Brands": {
     "title": "Brands We Are Proud to Serve"
   },

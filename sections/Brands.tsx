@@ -76,10 +76,6 @@ export default function Channels() {
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
               }}
-              navigation={{
-                nextEl: ".swiper-button-next-brands",
-                prevEl: ".swiper-button-prev-brands",
-              }}
               pagination={{
                 clickable: true,
               }}
