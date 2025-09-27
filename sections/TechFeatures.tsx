@@ -64,7 +64,7 @@ export default function TechFeatures() {
 
         {/* Main Content - Split Layout */}
         <div
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center ${
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-40 items-center ${
             isRTL ? "lg:grid-cols-2" : ""
           }`}
         >
