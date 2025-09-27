@@ -86,8 +86,8 @@ export default function TechFeatures() {
                 <div className="relative bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-[2.4rem] p-4 border border-gray-600/30">
                   {/* Bezel/Frame */}
                   <div className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 rounded-[2rem] p-2 border border-gray-700/50">
-                    {/* Screen Area - Much Larger */}
-                    <div className="relative bg-black rounded-[1.6rem] overflow-hidden aspect-[16/10] w-[420px] sm:w-[500px] lg:w-[580px]">
+                    {/* Screen Area - Responsive with minimum screen width for small screens only */}
+                    <div className="relative bg-black rounded-[1.6rem] overflow-hidden aspect-[16/10] w-full min-w-[280px] sm:w-[500px] lg:w-[580px]">
                       {/* Screen Content */}
                       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-black">
                         <Image
