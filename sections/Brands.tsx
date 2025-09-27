@@ -12,18 +12,20 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 export default function Channels() {
-  const t = useTranslations("Channels");
+  const t = useTranslations("Brands");
   const locale = useLocale();
   const isRTL = locale === "ar";
 
   // Channel items (images expected to be placed under /public/channels/* by the user later)
   const channels = [
-    { key: "hungerStation", img: "/channels/hungerstation-logo.svg" },
-    { key: "zid", img: "/channels/zid-logo.webp" },
-    { key: "shopify", img: "/channels/shopify-logo.svg" },
-    { key: "salla", img: "/channels/salla-logo.svg" },
-    { key: "noonFood", img: "/channels/noon-food.png" },
-    { key: "mrsool", img: "/channels/mrsool.png" },
+    { key: "almajid", img: "/brands/almajid_logo.png" },
+    { key: "chaizer", img: "/brands/chaizer_logo.png" },
+    { key: "eloxa", img: "/brands/eloxa_logo.png" },
+    { key: "ermine", img: "/brands/ermine.webp" },
+    { key: "labelle", img: "/brands/labelle_logo.png" },
+    { key: "rashof", img: "/brands/rashof-logo.svg" },
+    { key: "ribal", img: "/brands/ribal_logo.svg" },
+    { key: "sayyar", img: "/brands/sayyar-logo.svg" },
   ];
 
   return (
@@ -75,12 +77,11 @@ export default function Channels() {
                 pauseOnMouseEnter: true,
               }}
               navigation={{
-                nextEl: ".swiper-button-next-channels",
-                prevEl: ".swiper-button-prev-channels",
+                nextEl: ".swiper-button-next-brands",
+                prevEl: ".swiper-button-prev-brands",
               }}
               pagination={{
                 clickable: true,
-
               }}
               breakpoints={{
                 640: {
@@ -111,9 +112,6 @@ export default function Channels() {
                       height={80}
                       className="object-contain max-h-20 w-auto drop-shadow-sm group-hover/inner:scale-105 transition-transform duration-300"
                     />
-                    <span className="mt-4 text-sm font-medium text-dark-bg text-center">
-                      {t(`${c.key}Title`)}
-                    </span>
                   </div>
                 </SwiperSlide>
               ))}
