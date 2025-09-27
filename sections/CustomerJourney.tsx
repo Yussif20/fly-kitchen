@@ -106,9 +106,7 @@ export default function CustomerJourney() {
                     {/* Background Image */}
                     <div className="absolute inset-0">
                       <Image
-                        src={`/steps/step${item.step
-                          .toString()
-                          .padStart(2, "0")}.png`}
+                        src={`/steps/${item.step.toString()}.png`}
                         alt={t(`${item.key}.title`)}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-110"
