@@ -184,5 +184,14 @@
     "solution4Title": "Differences in storage temperatures?",
     "solution4Subtitle": "We provide storage at different temperatures, whether frozen, chilled, or at room temperature.",
     "cta": "Want to know more?"
+  },
+  "Channels": {
+    "title": "Sales Channels",
+    "hungerStationTitle": "HungerStation",
+    "zidTitle": "Zid",
+    "shopifyTitle": "Shopify",
+    "sallaTitle": "Salla",
+    "noonFoodTitle": "Noon Food",
+    "mrsoolTitle": "Mrsool"
   }
 }

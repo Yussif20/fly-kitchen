@@ -13,6 +13,15 @@
   --color-dark-bg: #202332;
   --color-dark-bg-hover: #11131a;
 }
+
+@layer base {
+  :root {
+    font-family: var(--font-inter, sans-serif);
+  }
+  [dir="rtl"] {
+    font-family: var(--font-tajawal, sans-serif);
+  }
+}
 /* Micro-interaction keyframes */
 @keyframes pulse-slow {
   0%,

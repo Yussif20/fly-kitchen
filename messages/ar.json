@@ -184,5 +184,14 @@
     "solution4Title": "اختلاف في درجات حرارة التخزين؟",
     "solution4Subtitle": "نوفر لك التخزين بدرجات حرارة مختلفة، سواءً كان مجمد، مثلج، أو بدرجة حرارة الغرفة.",
     "cta": "حابب تعرف أكثر؟"
+  },
+  "Channels": {
+    "title": "قنوات البيع",
+    "hungerStationTitle": "هنقرستيشن",
+    "zidTitle": "زد",
+    "shopifyTitle": "شوبيفاي",
+    "sallaTitle": "سلة",
+    "noonFoodTitle": "نون فود",
+    "mrsoolTitle": "مرسول"
   }
 }
