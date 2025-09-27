@@ -6,6 +6,7 @@ import {
   Channels,
   Brands,
   CustomerJourney,
+  TechFeatures,
 } from "@/sections";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Solutions />
       <Branches />
       <Channels />
+      <TechFeatures />
       <CustomerJourney />
       <Brands />
     </>

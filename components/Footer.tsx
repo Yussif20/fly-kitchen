@@ -28,8 +28,8 @@ export default function Footer() {
               src="/logo-dark.png"
               alt="Fly Kitchen Logo"
               width={160}
-              height={90}
-              className="select-none"
+              height={80}
+              className="select-none h-20 w-auto"
               priority
               suppressHydrationWarning
               draggable={false}

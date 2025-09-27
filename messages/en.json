@@ -222,6 +222,13 @@
       "description": "At Cloud Chef, we understand return cases from your customers and we receive, inspect all returned products, and make them available in the system after ensuring their safety"
     }
   },
+  "TechFeatures": {
+    "title": "Fly Kitchen Technical System Features",
+    "step1": "Technical Integration Operations Page",
+    "step2": "Main Sales Movement Dashboard",
+    "step3": "Inventory Tracking for Each Branch",
+    "step4": "Detailed Order Data Page"
+  },
   "Brands": {
     "title": "Brands We Are Proud to Serve"
   },

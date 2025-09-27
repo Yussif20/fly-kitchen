@@ -106,7 +106,7 @@ export default function Channels() {
                       alt={c.key}
                       width={140}
                       height={80}
-                      className="object-contain max-h-20 w-auto drop-shadow-sm group-hover/inner:scale-105 transition-transform duration-300"
+                      className="object-contain drop-shadow-sm group-hover/inner:scale-105 transition-transform duration-300 w-auto h-auto"
                     />
                   </div>
                 </SwiperSlide>
