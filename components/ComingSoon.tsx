@@ -3,7 +3,13 @@ import { useTranslations, useLocale } from "next-intl";
 import { Clock, ArrowLeft, Home } from "lucide-react";
 
 interface ComingSoonProps {
-  pageKey: "services" | "clients" | "trackOrder" | "contact";
+  pageKey:
+    | "services"
+    | "clients"
+    | "trackOrder"
+    | "contact"
+    | "privacy"
+    | "terms";
 }
 
 export default function ComingSoon({ pageKey }: ComingSoonProps) {

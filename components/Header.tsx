@@ -58,7 +58,7 @@ export default function Header() {
           ${
             scrolled
               ? "top-0 left-0 translate-x-0 rounded-none mx-0"
-              : "top-12 left-1/2 -translate-x-1/2 rounded-2xl shadow-xl"
+              : "top-12 left-1/2 -translate-x-1/2 md:rounded-2xl shadow-xl"
           }
         `}
         style={{

@@ -159,13 +159,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link
-                href={`/${locale}/governance`}
+                href={`/${locale}/privacy`}
                 className="text-white hover:text-primary-yellow-hover text-sm transition-colors duration-200"
               >
                 {footer("privacyPolicy")}
               </Link>
               <Link
-                href={`/${locale}/governance`}
+                href={`/${locale}/terms`}
                 className="text-white hover:text-primary-yellow-hover text-sm transition-colors duration-200"
               >
                 {footer("termsConditions")}
