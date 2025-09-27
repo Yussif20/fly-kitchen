@@ -69,7 +69,7 @@ export default function Solutions() {
                 {/* Enhanced image container */}
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl group-hover:shadow-3xl transition-all duration-500 group-hover:scale-105">
                   <Image
-                    src="/solutions.webp"
+                    src="/solutions.jpg"
                     alt="Solutions"
                     width={600}
                     height={600}

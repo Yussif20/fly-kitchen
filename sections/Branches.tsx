@@ -87,7 +87,7 @@ export default function Branches() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/branches.webp"
+          src="/map.jpg"
           alt="Branches"
           fill
           className="object-cover"

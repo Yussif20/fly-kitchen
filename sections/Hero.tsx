@@ -51,7 +51,7 @@ export default function Hero() {
       </div>
       {/* Background Image */}
       <Image
-        src="/hero.webp"
+        src="/hero.jpg"
         alt="Hero Background"
         fill
         priority
