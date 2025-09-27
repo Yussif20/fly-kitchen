@@ -1,10 +1,10 @@
-import { Features, Hero, Branches, Solutions, Channels } from "@/sections";
+import { Sales, Hero, Branches, Solutions, Channels } from "@/sections";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
+      <Sales />
       <Solutions />
       <Branches />
       <Channels />

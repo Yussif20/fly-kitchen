@@ -193,5 +193,27 @@
     "sallaTitle": "Salla",
     "noonFoodTitle": "Noon Food",
     "mrsoolTitle": "Mrsool"
+  },
+  "ComingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We're working hard to bring you this page",
+    "description": "This feature is currently under development. Please check back soon for updates.",
+    "backToHome": "Back to Home",
+    "services": {
+      "title": "Our Services",
+      "description": "Discover all the services we offer to help grow your business."
+    },
+    "clients": {
+      "title": "Our Clients",
+      "description": "Meet the amazing businesses we work with across the Kingdom."
+    },
+    "trackOrder": {
+      "title": "Track Your Order",
+      "description": "Follow your orders in real-time from preparation to delivery."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with our team for support and inquiries."
+    }
   }
 }
