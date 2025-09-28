@@ -95,7 +95,7 @@ export default function Header() {
                   onClick={() => setShowSettings((v) => !v)}
                 >
                   <Settings
-                    className="text-dark-bg dark:text-primary-yellow"
+                    className="text-white dark:text-primary-yellow"
                     size={24}
                   />
                 </button>

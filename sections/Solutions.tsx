@@ -158,7 +158,7 @@ export default function Solutions() {
                 <div className="absolute inset-0 bg-primary-yellow/25 rounded-2xl blur-xl group-hover:blur-lg group-hover:scale-110 transition-all duration-500"></div>
                 <Link
                   href={`/${locale}/about`}
-                  className="relative inline-flex items-center justify-center px-10 py-5 text-base sm:text-lg font-bold text-dark-bg bg-gradient-to-r from-primary-yellow via-primary-yellow/95 to-primary-yellow hover:from-primary-yellow/95 hover:via-primary-yellow hover:to-primary-yellow/95 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 border-2 border-primary-yellow/50 hover:border-primary-yellow overflow-hidden group"
+                  className="relative inline-flex items-center justify-center px-10 py-5 text-base sm:text-lg font-bold text-white bg-gradient-to-r from-primary-yellow via-primary-yellow/95 to-primary-yellow hover:from-primary-yellow/95 hover:via-primary-yellow hover:to-primary-yellow/95 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 border-2 border-primary-yellow/50 hover:border-primary-yellow overflow-hidden group"
                 >
                   {/* Button shimmer effect */}
                   <div

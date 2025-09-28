@@ -28,7 +28,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="hidden md:flex items-center gap-0 relative bg-primary-yellow text-dark-bg dark:bg-dark-bg dark:text-primary-yellow h-20">
+    <nav className="hidden md:flex items-center gap-0 relative bg-primary-yellow text-white dark:bg-dark-bg dark:text-primary-yellow h-20">
       {navigation.map((item) => (
         <div key={item.href} className="flex h-full">
           <Link

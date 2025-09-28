@@ -2,6 +2,19 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-primary-yellow: #ff8413;
+  --color-primary-yellow-hover: #e67410;
+  --color-yellow-gradient: linear-gradient(90deg, #ff8413 0%, #ffb566 100%);
+  --color-yellow-gradient-strong: linear-gradient(
+    90deg,
+    #ff8413 0%,
+    #e67410 100%
+  );
+  --color-dark-bg: #1f222a;
+  --color-dark-bg-hover: #0f1115;
+}
+
+/* @theme {
   --color-primary-yellow: #ff7900;
   --color-primary-yellow-hover: #e86900;
   --color-yellow-gradient: linear-gradient(90deg, #ff7900 0%, #ffb266 100%);
@@ -12,7 +25,7 @@
   );
   --color-dark-bg: #1f222a;
   --color-dark-bg-hover: #0f1115;
-}
+} */
 
 /* @theme {
   --color-primary-yellow: #f2c928;

@@ -36,7 +36,7 @@ export default function MobileNavigation() {
       {/* Hamburger Button */}
       <button
         onClick={toggleMenu}
-        className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+        className="inline-flex items-center justify-center p-2 rounded-md text-white dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
         aria-expanded="false"
       >
         <span className="sr-only">فتح القائمة الرئيسية</span>
@@ -78,7 +78,7 @@ export default function MobileNavigation() {
       <div
         className={`
           ${isOpen ? "block" : "hidden"}
-        fixed top-20 left-0 right-0 w-screen bg-primary-yellow text-dark-bg dark:bg-dark-bg dark:text-primary-yellow shadow-lg z-[100]`}
+        fixed top-20 left-0 right-0 w-screen bg-primary-yellow text-white dark:bg-dark-bg dark:text-primary-yellow shadow-lg z-[100]`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 flex flex-col items-center">
           {navigation.map((item) => (
