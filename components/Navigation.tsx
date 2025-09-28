@@ -33,7 +33,7 @@ export default function Navigation() {
         <div key={item.href} className="flex h-full">
           <Link
             href={item.href}
-            className={`flex items-center h-full text-sm font-medium transition-colors duration-200 px-5 rounded-none
+            className={`flex items-center h-full text-md font-semibold transition-colors duration-200 px-5 rounded-none
               ${
                 isActive(item.href)
                   ? "bg-dark-bg text-primary-yellow dark:bg-primary-yellow dark:text-dark-bg"

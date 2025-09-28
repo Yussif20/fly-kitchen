@@ -86,7 +86,7 @@ export default function MobileNavigation() {
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className={`block px-3 py-2 rounded-md text-base font-medium text-center transition-colors duration-200 hover:text-dark-bg dark:hover:text-primary-yellow ${
+              className={`block px-3 py-2 rounded-md text-base font-semibold text-center transition-colors duration-200 hover:text-dark-bg dark:hover:text-primary-yellow ${
                 isActive(item.href)
                   ? "border-b-2 border-dark-bg dark:border-primary-yellow pb-1"
                   : ""
